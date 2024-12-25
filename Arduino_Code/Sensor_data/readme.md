@@ -7,10 +7,4 @@
 3. The analog input ports of the mega32u4 and mage328p are inconsistent, and you need to read the chip manual to make adjustments.
    Ensure that the communication port and frequency of the ubuntu host and arduino are consistent. 
 4. If necessary, you can modify the data printed by the serial port and add additional numbers to calibrate the atmospheric pressure.
-## PCB build
-<p align = "center">
-<img src="Pic/sensor_mega32u4.png" width = "430" height = "260" border="5" />
-</p>
-<p align = "center">
-<img src="Pic/sensor_mega328p.png" width = "430" height = "260" border="5" />
-</p>
+
