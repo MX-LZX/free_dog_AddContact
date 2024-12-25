@@ -33,6 +33,9 @@ serial_reader:
 
 ## PCB build
 <p align = "center">
+<img src="Pic/legged_control.gif" width = "430" height = "260" border="5" />
+</p>
+<p align = "center">
 <img src="Pic/sensor_mega32u4.png" width = "430" height = "260" border="5" />
 </p>
 <p align = "center">
