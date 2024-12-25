@@ -1,4 +1,4 @@
-# free_dog_AddContact
+![image](https://github.com/user-attachments/assets/0cfd36c9-c9b5-4255-a68f-f8a43cc27664)# free_dog_AddContact
 Unitree Go 1 Free Dog Add Contact. /unitree go1系列添加足端力传感器
 # Unitree Go 1 Free Dog SDK CPP
 Welcome to the repository designed for general users without needing "Krypton gold." 
@@ -14,15 +14,9 @@ We thank Bin4ry and linzhuyue for their invaluable contributions to the protocol
 4. Thanks, linzhuyue for the C++ version.
 5. New build by mengxin test on go 1 pro
 
-##New build 
+## New build 
 1.free_dog_sdk_cpp-main file mainly modify\free_dog_sdk_cpp-main\fdsc_utils highstate.h, lowstate.h, highstate.cpp, lowstate.cpp files.
 2.The serial_reader file mainly contains the serial port information for ubuntu to read arduino, and is published through ros.
-
-## Current State
-1. Testing with legged_control [Legged_controller(3Q qiayuan)](https://github.com/linzhuyue/legged_control/tree/master)
-2. Testing wired, Wi-Fi high- and low-level control. especially torque tracking control.
-3. Without any safety, you can clip with your controller with urdf limits.
-4. I fixed some bugs in the Python version; it can be used for RL.
 
 ## How to use?
 free_dog_sdk:
@@ -36,32 +30,13 @@ serial_reader:
 2.roscore and sudo xxx_ws serial_reader_node
 3.You can see the cmd interface continues to publish data, if the error, you can try sudo chmod 777 /dev/ttyUSB*.
 
-## Examples:
-1. High-level
-   1. robot stand up and down
-   2. rotation walk with trot
-   3. force stand and walk
-2. Low level
-   1. joint pd control
-   2. joint velocity control
-   3. joint tau control
-   4. joint tau tracking control
-   
-## Before you run low-level control. You should use the RC and do the following cmd sequence:
-```
-L2 + B
-L1 + L2 + START
-```
-
-## The IP config and meanings in the file "unitreeConnectBoost.hpp":
-```
-    const std::string localIpWifi = "192.168.12.222"; // Your PC wifi will give by the DHCP wifi:pwd 00000000
-    const std::string localIpEth = "192.168.123.12"; // Your PC
-    const std::string addrWifi = "192.168.12.1"; // wifi pi
-    const std::string addrLow = "192.168.123.10"; // Nano can't connect
-    const std::string addrHigh = "192.168.123.161"; // Pi wired IP
-    const std::string sim_addr = "127.0.0.1"; // Local
-```
+## PCB build
+<p align = "center">
+<img src="Pic/sersor_mega32u4.png" width = "430" height = "260" border="5" />
+</p>
+<p align = "center">
+<img src="Pic/sersor_mega328p.png" width = "430" height = "260" border="5" />
+</p>
    
 ## LICENSE
 MIT LICENSE
@@ -69,3 +44,4 @@ MIT LICENSE
 ## Referneces
 1. [Bin4ry Python Version(Many Thks)](https://github.com/Bin4ry/free-dog-sdk/tree/main)
 2. [legged_controller](https://github.com/qiayuanl/legged_control)
+3. [free_dog_sdk](https://github.com/linzhuyue/free_dog_sdk_cpp)
