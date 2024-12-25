@@ -24,6 +24,7 @@ free_dog_sdk:
 3. If you used wired, you should set up your IP just like 192.168.123.xxx
 4. Then catkin build again and ```source devel/setup.bash```
 5. ```rosrun fdsc_utils fdsc_utils_pushup_node``` (This is most safe motion. If you use wireless with robot please modify connection settings as "LOW_WIFI_DEFAULTS")
+
 serial_reader:
 1.Clone into your ROS ws. And catkin build
 2.roscore and sudo xxx_ws serial_reader_node
