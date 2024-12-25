@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/0cfd36c9-c9b5-4255-a68f-f8a43cc27664)# free_dog_AddContact
 Unitree Go 1 Free Dog Add Contact. /unitree go1系列添加足端力传感器
 # Unitree Go 1 Free Dog SDK CPP
 Welcome to the repository designed for general users without needing "Krypton gold." 
