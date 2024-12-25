@@ -9,6 +9,6 @@
    to complete the connection.
 ## Schematic drawing
 <p align = "center">
-<img src="Schematic drawing.jpg" width = "430" height = "260" border="5" />
+<img src="Schematic drawing.jpg" width = "430" height = "520" border="5" />
 </p>
 
