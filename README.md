@@ -32,10 +32,16 @@ serial_reader:
 
 ## PCB build
 <p align = "center">
-<img src="Pic/sersor_mega32u4.png" width = "430" height = "260" border="5" />
+<img src="Pic/sensor_mega32u4.png" width = "430" height = "260" border="5" />
 </p>
 <p align = "center">
-<img src="Pic/sersor_mega328p.png" width = "430" height = "260" border="5" />
+<img src="Pic/sensor_mega328p.png" width = "430" height = "260" border="5" />
+</p>
+<p align = "center">
+<img src="Pic/sensor_install.jpg" width = "430" height = "260" border="5" />
+</p>
+<p align = "center">
+<img src="Pic/go1_pro.jpg" width = "430" height = "260" border="5" />
 </p>
    
 ## LICENSE
