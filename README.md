@@ -26,9 +26,9 @@ free_dog_sdk:
 5. ```rosrun fdsc_utils fdsc_utils_pushup_node``` (This is most safe motion. If you use wireless with robot please modify connection settings as "LOW_WIFI_DEFAULTS")
 
 serial_reader:
-1.Clone into your ROS ws. And catkin build
-2.roscore and sudo xxx_ws serial_reader_node
-3.You can see the cmd interface continues to publish data, if the error, you can try sudo chmod 777 /dev/ttyUSB*.
+1. Clone into your ROS ws. And catkin build.
+2. roscore and sudo xxx_ws serial_reader_node.
+3. You can see the cmd interface continues to publish data, if the error, you can try sudo chmod 777 /dev/ttyUSB*.
 
 ## PCB build
 <p align = "center">
