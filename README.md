@@ -53,10 +53,10 @@ MIT LICENSE
 
 
 
-README for Supplementary Materials
+# README for Supplementary Materials
 
 
-1. Overview
+# 1. Overview
 
 This repository contains supplementary materials for our IEEE Robotics and Automation Letters (RA-L) submission on the design and validation of a multi-dimensional foot-end force sensor integrated with a PINN-based estimation algorithm. The materials include:
 
@@ -69,25 +69,23 @@ Software (SW) structure diagrams illustrating code modules and data flow.
 
 
 
-2. Contents
+# 2. Contents
 
 ├── videos/
 └── sw_structure/
 
 
-3. How to Use
+# 3. How to Use
 
---1. Video Playback
+1. Video Playback
 
 Navigate to the videos/ folder.
 
-
-
---2. Software Structure
+2. Software Structure
 
 
 
-4. Code & Data Release Plan
+# 4. Code & Data Release Plan
 
 To ensure clarity and maintainability, the full codebase and experimental datasets will be published on our GitHub repository (URL to be announced) with the following steps:
 
@@ -120,7 +118,7 @@ Our goal extends beyond a single publication; we aim to develop a robust product
 
 
 
-5. Contact for Early Access
+# 5. Contact for Early Access
 
 If you require the current version of the code or datasets before the public release, please contact:
 
